@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6406231D547CA900652BAC /* objcDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406221D547CA900652BAC /* objcDevice.h */; };
+		FE6406231D547CA900652BAC /* objcDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6406221D547CA900652BAC /* objcDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64062A1D547CA900652BAC /* objcDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64061F1D547CA900652BAC /* objcDevice.framework */; };
 		FE64062F1D547CA900652BAC /* objcDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64062E1D547CA900652BAC /* objcDeviceTests.m */; };
+		FE64063C1D547CB900652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6406391D547CB900652BAC /* Cartfile */; };
+		FE64063D1D547CB900652BAC /* objcDevice.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64063A1D547CB900652BAC /* objcDevice.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 		FE6406291D547CA900652BAC /* objcDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64062E1D547CA900652BAC /* objcDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcDeviceTests.m; sourceTree = "<group>"; };
 		FE6406301D547CA900652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6406391D547CB900652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE64063A1D547CB900652BAC /* objcDevice.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcDevice.podspec; sourceTree = "<group>"; };
+		FE64063B1D547CB900652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,9 @@
 				FE6406211D547CA900652BAC /* objcDevice */,
 				FE64062D1D547CA900652BAC /* objcDeviceTests */,
 				FE6406201D547CA900652BAC /* Products */,
+				FE6406391D547CB900652BAC /* Cartfile */,
+				FE64063A1D547CB900652BAC /* objcDevice.podspec */,
+				FE64063B1D547CB900652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64063D1D547CB900652BAC /* objcDevice.podspec in Resources */,
+				FE64063C1D547CB900652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
